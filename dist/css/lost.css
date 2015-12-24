@@ -1,0 +1,150 @@
+@import 'reset/reset.css';
+body *:not(input):not(textarea):not(select){
+  background-color: rgba(0, 0, 255, 0.1);
+}
+html {
+  color: #000;
+  padding: 28px;
+  height: auto;
+  overflow-y: scroll;
+}
+header {
+  text-align: center;
+  margin: 28px 0 56px;
+}
+div {
+  height: auto;
+  text-align: right;
+  margin-bottom: 14px;
+  margin-top: 14px;
+}
+div div {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div .item {
+  min-width: 280px;
+  height: auto;
+  float: left;
+  margin-bottom: 26px;
+}
+p:first-child {
+  text-align: left;
+  margin-top: 26px;
+}
+section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  max-width: 1204px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+section *:not(input):not(textarea):not(select){
+  background-color: rgba(0, 0, 255, 0.1);
+}
+:last-of-type {
+  margin-bottom: 0;
+}
+:last-of-type div {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: calc(99.99% * 1/1 - (28px - 28px * 1/1));
+}
+:last-of-type div:nth-child(n){
+  margin-right: 28px;
+}
+:last-of-type div:last-child{
+  margin-right: 0;
+}
+:last-of-type div:nth-child(1n){
+  margin-right: 0;
+}
+:last-of-type div:nth-of-type(1) {
+  background: #fff;
+}
+:last-of-type div:nth-of-type(1) div {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: calc(99.99% * 1/1 - (28px - 28px * 1/1));
+  background: #fff;
+}
+:last-of-type div:nth-of-type(1) div:nth-child(n){
+  margin-right: 28px;
+}
+:last-of-type div:nth-of-type(1) div:last-child{
+  margin-right: 0;
+}
+:last-of-type div:nth-of-type(1) div:nth-child(1n){
+  margin-right: 0;
+}
+@media (min-width: 588px) {
+  :last-of-type div:nth-of-type(1) div {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: calc(99.99% * 1/2 - (28px - 28px * 1/2));
+  }
+  :last-of-type div:nth-of-type(1) div:nth-child(n){
+    margin-right: 28px;
+  }
+  :last-of-type div:nth-of-type(1) div:last-child{
+    margin-right: 0;
+  }
+  :last-of-type div:nth-of-type(1) div:nth-child(2n){
+    margin-right: 0;
+  }
+}
+@media (min-width: 896px) {
+  :last-of-type div:nth-of-type(1) div {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: calc(99.99% * 1/3 - (28px - 28px * 1/3));
+  }
+  :last-of-type div:nth-of-type(1) div:nth-child(n){
+    margin-right: 28px;
+  }
+  :last-of-type div:nth-of-type(1) div:last-child{
+    margin-right: 0;
+  }
+  :last-of-type div:nth-of-type(1) div:nth-child(3n){
+    margin-right: 0;
+  }
+}
+@media (min-width: 1204px) {
+  :last-of-type div:nth-of-type(1) div {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: calc(99.99% * 1/4 - (28px - 28px * 1/4));
+  }
+  :last-of-type div:nth-of-type(1) div:nth-child(n){
+    margin-right: 28px;
+  }
+  :last-of-type div:nth-of-type(1) div:last-child{
+    margin-right: 0;
+  }
+  :last-of-type div:nth-of-type(1) div:nth-child(4n){
+    margin-right: 0;
+  }
+}
+
+/*# sourceMappingURL=lost.css.map */
