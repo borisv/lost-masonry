@@ -1,4 +1,4 @@
-#Masonry UI
+#Masonry UI with Lost
 
 http://borisv.github.io/lost-masonry
 
