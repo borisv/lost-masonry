@@ -8,4 +8,4 @@
 - Using [lost](https://github.com/corysimmons/lost) with vertical rows using count() for sorting
 
 ----
-[DBA Public License](https://github.com/borisv/lost-masonry/LICENSE)
+[DBA Public License](LICENSE)
