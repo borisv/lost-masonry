@@ -8,3 +8,5 @@ Testing for various techniques:
 - Using [lost](https://github.com/corysimmons/lost) with vertical rows using count() for sorting
 
 ```
+
+License: DBA Public License
