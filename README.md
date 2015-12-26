@@ -9,4 +9,4 @@ Testing for various techniques:
 
 ```
 
-[DBA Public License](LICENSE)
+[DBA Public License](https://github.com/borisv/lost-masonry/LICENSE)
