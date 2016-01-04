@@ -1,0 +1,132 @@
+@import 'reset/reset.css';
+
+html {
+  font-weight: bold;
+  color: #666;
+  padding: 30px;
+  height: auto;
+}
+
+html *:not(input):not(textarea):not(select){
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+header {
+  text-align: center;
+  margin: 30px 0 60px;
+}
+
+div {
+	text-align: right;
+}
+
+div div {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+section {
+	*zoom: 1;
+	max-width: 1240px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section:before{
+  content: '';
+  display: table;
+}
+
+section:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+section:nth-of-type(1) {
+  background: #fff;
+}
+section:nth-of-type(1) div {
+  width: calc(99.99% * 1/1 - (30px - 30px * 1/1));
+	min-width: 280px;
+  background: #fff;
+}
+section:nth-of-type(1) div:nth-child(n){
+  float: left;
+  margin-right: 30px;
+  clear: none;
+}
+section:nth-of-type(1) div:last-child{
+  margin-right: 0;
+}
+section:nth-of-type(1) div:nth-child(1n){
+  margin-right: 0;
+}
+section:nth-of-type(1) div:nth-child(1n + 1){
+  clear: left;
+}
+@media (min-width: 632px) {
+  section:nth-of-type(1) div {
+    width: calc(99.99% * 1/2 - (30px - 30px * 1/2));
+		min-width: 280px;
+  }
+  section:nth-of-type(1) div:nth-child(n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+  section:nth-of-type(1) div:last-child{
+    margin-right: 0;
+  }
+  section:nth-of-type(1) div:nth-child(2n){
+    margin-right: 0;
+  }
+  section:nth-of-type(1) div:nth-child(2n + 1){
+    clear: left;
+  }
+}
+@media (min-width: 936px) {
+  section:nth-of-type(1) div {
+    width: calc(99.99% * 1/3 - (30px - 30px * 1/3));
+		min-width: 280px;
+  }
+  section:nth-of-type(1) div:nth-child(n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+  section:nth-of-type(1) div:last-child{
+    margin-right: 0;
+  }
+  section:nth-of-type(1) div:nth-child(3n){
+    margin-right: 0;
+  }
+  section:nth-of-type(1) div:nth-child(3n + 1){
+    clear: left;
+  }
+}
+@media (min-width: 1204px) {
+  section:nth-of-type(1) div {
+    width: calc(99.99% * 1/4 - (30px - 30px * 1/4));
+		min-width: 280px;
+  }
+  section:nth-of-type(1) div:nth-child(n){
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+  section:nth-of-type(1) div:last-child{
+    margin-right: 0;
+  }
+  section:nth-of-type(1) div:nth-child(4n){
+    margin-right: 0;
+  }
+  section:nth-of-type(1) div:nth-child(4n + 1){
+    clear: left;
+  }
+}
+
+/*# sourceMappingURL=lost-v-count.css.map */

@@ -18,6 +18,10 @@
   display: block;
   max-width: 100%;
 }
+#pagebody {
+	max-width: 1240px;
+	margin: 0 auto;
+}
 #masonry {
   max-width: 1204px;
 }

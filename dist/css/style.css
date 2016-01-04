@@ -1,21 +1,20 @@
 @import 'reset/reset.css';
-
 html {
   font-weight: bold;
-  color: #666;
-  padding: 30px;
+  color: #fff;
+  padding: 28px;
   height: auto;
 }
 header {
   text-align: center;
-  margin: 30px 0 60px;
+  margin: 28px 0 56px;
 }
 div {
   height: 100px;
   line-height: 100px;
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 div div {
   margin-top: 0;
@@ -26,8 +25,8 @@ section {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 28px;
+  margin-bottom: 28px;
 }
 section:before{
   content: '';
@@ -224,7 +223,7 @@ section:nth-of-type(5) div {
   height: auto;
   line-height: 25px;
   font-weight: normal;
-  padding: 15px;
+  padding: 14px;
   background: #ef8b22;
 }
 section:nth-of-type(5) div:nth-child(n){
@@ -307,7 +306,7 @@ section:nth-of-type(6) div {
   margin-bottom: 30px;
   margin-top: 0;
   background: #0182ff;
-  padding: 30px;
+  padding: 28px;
 }
 section:nth-of-type(6) div:last-child{
   margin-bottom: 0;
@@ -321,7 +320,7 @@ section:nth-of-type(7) div {
   margin-top: 0;
   background: #ff4726;
   line-height: inherit;
-  padding: 30px;
+  padding: 28px;
 }
 section:nth-of-type(7) div:nth-child(n){
   float: left;
